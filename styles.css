@@ -17,12 +17,11 @@ header {
   background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
 }
 
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 3px solid #00bcd4;
+.avatar-icon {
+  font-size: 64px;
   margin-bottom: 1rem;
+  color: #00bcd4;
+  text-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
 }
 
 .highlight {
@@ -58,6 +57,14 @@ h2 {
   border-radius: 10px;
   width: 280px;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  color: #eee;
+  text-decoration: none;
+}
+
+.card:hover {
+  background-color: #333;
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
 .skills {
